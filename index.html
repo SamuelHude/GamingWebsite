@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Monde du Gaming - Gaming Hub</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.3.2/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-roboto">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold">Le Monde du Gaming</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="gaming_hub.html" class="hover:text-gray-300">Gaming Hub</a></li>
+                    <li><a href="tech_crypto.html" class="hover:text-gray-300">Tech &amp; Crypto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center py-16" style="background-image: url('https://source.unsplash.com/1600x900/?gaming');">
+        <div class="container mx-auto px-6 text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">Bienvenue dans l'univers du gaming</h1>
+            <p class="text-lg mb-6">Explorez les dernières nouvelles, tendances et astuces pour améliorer votre expérience de jeu.</p>
+            <a href="#news" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-lg">Découvrir Plus</a>
+        </div>
+    </section>
+
+    <!-- News & Updates -->
+    <section id="news" class="py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold mb-6 text-center text-blue-600">News &amp; Updates</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- News Item -->
+                <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-2">Nouvelle Extension pour PUBG</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Découvrez les nouvelles fonctionnalités et cartes introduites dans la dernière extension de PUBG.</p>
+                    <a href="#" class="text-blue-600 hover:underline flex items-center"><i class="fas fa-arrow-right mr-2"></i> Lire la Suite</a>
+                </div>
+                <!-- News Item -->
+                <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-2">Esports: Tournoi International</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Les meilleurs joueurs du monde s'affrontent dans le tournoi international de Call of Duty.</p>
+                    <a href="#" class="text-blue-600 hover:underline flex items-center"><i class="fas fa-arrow-right mr-2"></i> Lire la Suite</a>
+                </div>
+                <!-- News Item -->
+                <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-2">Mises à Jour de Sécurité pour PC Gamers</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Assurez-vous que votre PC est protégé avec les dernières mises à jour de sécurité recommandées.</p>
+                    <a href="#" class="text-blue-600 hover:underline flex items-center"><i class="fas fa-arrow-right mr-2"></i> Lire la Suite</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Reviews -->
+    <section class="py-12 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold mb-6 text-center text-blue-600">Game Reviews</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Review Card -->
+                <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition transform hover:scale-105">
+                    <img src="https://source.unsplash.com/400x300/?game-review" alt="Game Review" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Call of Duty: Modern Warfare Review</h3>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-star text-yellow-500 mr-2"></i>
+                            <span>4.8</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Une analyse approfondie des dernières améliorations et de l'expérience de jeu offerte par Modern Warfare.</p>
+                        <a href="#" class="text-blue-600 hover:underline flex items-center"><i class="fas fa-arrow-right mr-2"></i> Lire la Suite</a>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other reviews -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-6">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <a href="#" class="text-2xl font-bold">Le Monde du Gaming</a>
+            </div>
+            <div class="flex space-x-6 mb-4 md:mb-0">
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-discord"></i></a>
+            </div>
+            <div class="flex space-x-4">
+                <input type="email" placeholder="Votre email" class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 focus:outline-none">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center">
+                    <i class="fas fa-paper-plane mr-2"></i> S'inscrire
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Animations -->
+    <script>
+        gsap.from(".transition", { duration: 1, opacity: 0, y: 30, stagger: 0.2 });
+    </script>
+</body>
+</html>
